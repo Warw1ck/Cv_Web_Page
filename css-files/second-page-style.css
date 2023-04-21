@@ -1,0 +1,33 @@
+body{
+    background-color: #F4F4F2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.plate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 705px;
+}
+.cerfButton{
+    background-color: transparent;
+    padding: 0px 0px;
+    border: none;
+    cursor: pointer;
+}
+.arrow{   
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.arrowImg{
+    height: 40px;
+ 
+}
+.js-cerfImg{
+    height: 500px;
+    transition: width 1s, height 2s;
+}
+.resizeImg{
+    height: 600px;
+    transition: width 1s, height 2s;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css-files/second-page-style.css">
+    <link rel="stylesheet" href="css-files/toolbar-style.css">
+    <title>ValentinResume</title>
+</head>
+<body>
+    <div class="plate">
+        <button id = "left-arrow" class="arrow" onclick="changeValue(-1)"><img class="arrowImg" src="images/arrow-left.png"></button>
+        <button id = "cBtn" class="cerfButton" onclick="openCerf()"><img id="cerf1" class="js-cerfImg"src="images/python-oop-front.jpeg" 
+        onclick="console.log(3)"></button>
+        <button id = "right-arrow" class="arrow" onclick="changeValue(1)"><img class="arrowImg" src="images/arrow-right.png"></button>
+    </div>
+    <div class = "toolbar">
+        <button class="about" onclick="changePage('index.html')">About</button>
+        <button class="cerf" onclick="changePage('second-page.html')">Certificates</button>
+        <button class="proj" onclick="changePage('third-page.html')">Projects</button>
+    </div>
+    <script src="scripts/second-page-script.js"></script>
+</body>
+</html>
