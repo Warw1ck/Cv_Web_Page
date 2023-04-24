@@ -1,0 +1,50 @@
+body{
+    background-color: #F4F4F2;
+}
+button{
+    padding: 50px 50px;
+}
+.plate{
+    padding-top: 50px;
+}
+
+.projImg{
+    display: block;
+    position: absolute;
+    padding: 0px 0px;
+    box-shadow: -5px 15px 35px -5px #BBBFCA;
+    border: none;
+}
+.secondLine .projImg{
+    bottom: -300px;
+}
+
+.plate button:hover img{
+    height: 200px;
+}
+
+.firstLine{
+    display: flex;
+    justify-content: space-around;
+}
+
+.firstLine div{
+    position: relative;
+}
+.secondLine{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+.secondLine div{
+    position: relative;
+}
+
+.projImg{
+    left: -280px;
+}
+.proj{
+    background-color: #EB6440;
+}
+

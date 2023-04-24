@@ -1,0 +1,27 @@
+.toolbar{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: #E8E8E8;
+    flex-direction: row;
+    justify-content: center;
+}
+.toolBtn{
+    background-color: transparent;
+    border: none;
+    padding: 25px 25px;
+    padding-left: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.toolBtn:hover{
+    background-color: #495464;
+}
+.toolBtn:active{
+    background-color: #EB6440;
+}
+
+
